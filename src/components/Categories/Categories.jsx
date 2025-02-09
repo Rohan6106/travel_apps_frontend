@@ -1,8 +1,10 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useCategory, useFilter } from "../../context";
-import Carousel from 'react-elastic-carousel';
+//import Carousel from 'react-elastic-carousel';
 import "./Categories.css";
+import Carousel from "@itseasy21/react-elastic-carousel";
+
 
 export const Categories = () => {
   const [categories, setCategories] = useState([]);
