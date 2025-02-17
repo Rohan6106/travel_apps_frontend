@@ -7,9 +7,13 @@ export const signupHandler = async (
   password,
   setAlert
 ) => {
-  try {
+  try {console.log(username,
+    number,
+    email,
+    password,
+    )
     const data = await axios.post(
-      "https://travel-app-backend-40yd.onrender.com/api/auth/register",
+      "https://travel-app-backend-1-4ltc.onrender.com/api/auth/register",
       {
         username: username,
         number: number,
