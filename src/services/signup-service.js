@@ -1,5 +1,5 @@
 import axios from "axios";
-
+// https://travel-app-2mth.onrender.com/api/auth/register
 export const signupHandler = async (username, number, email, password, setAlert) => {
   try {
     const data = await axios.post(
